@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+
+criar o arquivo proxy.config.js no mesmo pacote de package.json
+
+depois de criar o arquivo, editar package.json para  "start": "ng serve --proxy-config proxy.config.js",
+
+Rodar a plicação com npm run start
